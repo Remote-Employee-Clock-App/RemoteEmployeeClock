@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/iv_profileimage"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@android:mipmap/sym_def_app_icon"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/tv_profilename"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Employee Full Name: Farouk Adewumi" />
+
+    <TextView
+        android:id="@+id/tv_profileposition"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="Position: Assistant Manager" />
+
+    <TextView
+        android:id="@+id/tv_profilepay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay rate: $25.75/hr" />
+</LinearLayout>
+
